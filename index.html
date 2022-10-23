@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css ">
+
+    <title>VENTA DE CONSOLAS</title>
+</head>
+<body class="fondo">
+
+    <h1 id="titulo-principal" style="font-size: 5rem;">Venta de consolas</h1>
+
+    <img  class ="img-index" src ="./img/Consolas.jpg" alt="">
+
+    <h2 style="font-size: 4rem ;margin-top :5rem ; margin-bottom: 5rem;">Nuestros Productos</h2>
+
+    <div class="container">
+
+        
+        
+
+        
+    
+            <div class="row" id="contenedor-productos"></div>
+
+
+            </div>
+        
+            <template id="template-footer">
+                <th scope="row" colspan="2">Total productos</th>
+                <td>10</td>
+                <td>
+
+                    <button class="btn btn-danger btn-sm"  id="vaciar-carrito">
+                        vaciar todo
+                    </button>
+                </td>
+                <td class="font-weight-bold">$ <span>5000</span></td>
+            </template>
+        
+            <template id="template-carrito">
+              <tr>
+                <th scope="row">id</th>
+                <td>Café</td>
+                <td>1</td>
+                <td>
+                    <button class="btn btn-info btn-sm">
+                        +
+                    </button>
+                    <button class="btn btn-danger btn-sm">
+                        -
+                    </button>
+                </td>
+                <td>$ <span>500</span></td>
+              </tr>
+            </template>
+        
+            <template id="template-productos">
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="card">
+                        <img src="./img/" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">
+                              
+                          </h5>
+                          <p class="card-text" style="color: #111;"></p>
+                          <button class="btn btn-dark">
+                              Agregar al carrito
+                          </button>
+                        </div>
+                      </div>
+                </div>
+            </template>
+
+            <h2  style="font-size: 3rem">Carrito de compras</h2>
+
+            <div class="carritoMario">
+                <img src= "./img/carritomario.jpg  " alt="">
+            
+                </div>
+            
+            <div class="row">
+
+            
+                <h2  style="font-size: 3rem">Tus productos seleccionados</h2>
+            <div class="my-5">
+                
+                <table class="table" >
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Consolas</th>
+                      <th scope="col">Cantidad</th>
+                      <th scope="col">Acción</th>
+                      <th scope="col">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody id="items"></tbody>
+                  <tfoot>
+                    <tr id="footer-carrito">
+                        <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <h2 class="rkg">Dejanos tus datos para concretar la compra</h2>
+
+    <form class="containerForm">
+        <div class="mb-3 containerInput">
+          <label for=" exampleInputEmail1" class="form-label" style="font-size: 1.5rem" placeholder="Ingrese su nombre" value="">Nombre y Apellido :</label>
+          <input type="text" name="nombre" class="form-control" aria-describedby="emailHelp">
+        </div>
+
+        <div class="mb-3 containerInput">
+            <label for="exampleInputEmail1" class="form-label"  style="font-size: 1.5rem"placeholder="Ingrese su Telefono" value="">Teléfono :</label>
+            <input type="text" name= "telefono"class="form-control" aria-describedby="emailHelp">
+          </div>
+
+          <div class="mb-3 containerInput">
+            <label for="exampleInputEmail1" class="form-label" style="font-size: 1.5rem"placeholder="Ingrese su Email" value="">Email :</label>
+            <input type="text" class="form-control" aria-describedby="emailHelp">
+          </div>
+
+        <button onclick="comprafinalizada(event)" id="vaciar" class="btn btn-primary mb-3 button" style="background-color: #453c5c;">
+            <span class="textButton" >Finalizar Compra</span>
+        </button>
+      </form>
+
+    <h2 class="rkg">TOP 10 DE JUEGOS</h2>
+    <div class="ranking" style="display: flex; flex-wrap:wrap;gap:10px"></div>
+
+    <!-- <h4 class="titulo-formulario">Ingresa tu nombre, apellido y telefono para contactarte</h4>
+    <div class="datos-contacto">   -->
+        
+        
+        <!-- <form id="formulario"> 
+                <input type="text" name="nombre" placeholder="Ingrese su nombre" value="" id="nombre">
+                <input type="text" name="apellido" placeholder="Ingrese su apellido" value="" id="apellido">
+                <input type="text" name="telefono" placeholder="Ingrese su numero de telefono" value="" id="telefono">
+                <button id="agregar-contacto" onclick="preventDefault(event); alertacomprafinalizada();    alertaborrar()">Finalizar Compra</button>
+
+        <p class="parrafo"></p>
+        
+        <p class="parrafo"></p>
+        
+        <p class="parrafo"></p>
+        
+        </form>
+        <button id="limpiarContacto">borrar Contacto</button></p>
+        </div> -->
+        <h2 class="rkg"> JUGA CON MARIO </h2>
+        <p style="color: black"> INSTRUCCIONES: utiliza la flecha derecha e izquierda de tu teclado  y la letra u , para darle vida a Mario</p>
+        <div id="mario" data-y="180"></div>
+    <div class="footer">
+    <footer><p class="copy">Copyright © consolas en venta - 2022</p></footer>
+
+    </div>
+    <!-- ----------sweetalert ----------->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

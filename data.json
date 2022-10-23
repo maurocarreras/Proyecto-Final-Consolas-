@@ -1,0 +1,70 @@
+[
+    {
+       "id":1,
+       "nombre":"Red Dead Redemption 2",
+       "plataforma":"PS4",
+       "img":"../img/reddead.jpg"
+    },
+    
+    {
+       "id":2,
+       "nombre":"FIFA 23",
+       "plataforma":"PS5",
+       "img":"../img/fifa23.jpg"
+    },
+    {
+       "id":3,
+       "nombre":"Grand Theft Auto V",
+       "plataforma":"Xbox Series",
+       "img":"../img/gtav.jpg"
+    },
+    {
+       "id":4,
+       "nombre":"Mario Galaxy 2",
+       "plataforma":"Nintendo Wii",
+       "img":"../img/mariogalaxy2.jpg"
+      },
+    
+    {
+       "id":5,
+       "nombre":"Resident Evil 4",
+       "plataforma":"PS2",
+       "img":"../img/residentevil4.jpg"
+      },
+    
+    {
+       "id":6,
+       "nombre":"Uncharted ",
+       "plataforma":"PS3",
+       "img":"../img/uncharted.jpg"
+      },
+    
+    {
+       "id":7,
+       "nombre":"The Witcher 3 ",
+       "plataforma":"PC",
+       "img":"../img/witcher3.jpg"
+      },
+    
+    {
+       "id":8,
+       "nombre":"The last of us ",
+       "plataforma":"PS3",
+       "img":"../img/thelastofus.jpg"
+      },
+    
+    {
+       "id":9,
+       "nombre":"Halo",
+       "plataforma":"Xbox 360",
+       "img":"../img/halo.jpg"
+      },
+    
+    {
+       "id":10,
+       "nombre":"Super mario 64 ",
+       "plataforma":"Nintendo 64",
+       "img":"../img/supermario64.jpg"
+      }
+    
+ ]

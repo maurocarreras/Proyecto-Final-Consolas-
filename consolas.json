@@ -1,0 +1,141 @@
+[
+    {
+       "id":1,
+       
+       "nombre":"Nintendo Nes",
+       "precio":12000,
+       "img":"./img/nes.jpg"
+    },
+    {
+       "id":2,
+       "nombre":"Super Nintendo",
+       "precio":18000,
+       "img":"./img/supernintendo.jpg"
+    },
+    {
+       "id":3,
+       "nombre":"Sega Genesis",
+       "precio":14000,
+       "img":"./img/segagenesis.jpg"
+    },
+    {
+       "id":4,
+       "nombre":"Play Station One",
+       "precio":25000,
+       "img":"./img/playstationone.jpg"
+    },
+    {
+       "id":5,
+       "nombre":"Nintendo 64",
+       "precio":30000,
+       "img":"./img/nintendo64.jpg"
+    },
+    {
+       "id":6,
+       "nombre":"Sega Dreamcast",
+       "precio":35000,
+       "img":"./img/segadreamcast.jpg"
+    },
+    {
+       "id":7,
+       "nombre":"Nintendo Game Cube",
+       "precio":40000,
+       "img":"./img/nintendogamecube.jpg"
+    },
+    {
+       "id":8,
+       "nombre":"Play Station 2",
+       "precio":37000,
+       "img":"./img/playstation2.jpg"
+    },
+    {
+       "id":9,
+       "nombre":" Xbox",
+       "precio":32500,
+       "img":"./img/xboxclasic.jpg"
+    },
+    {
+       "id":10,
+       "nombre":"Nintendo Wii",
+       "precio":29700,
+       "img":"./img/nintendowii.jpg"
+    },
+    {
+       "id":11,
+       "nombre":"Game Boy ",
+       "precio":24999,
+       "img":"./img/nintendogameboy.jpg"
+    },
+    {
+       "id":12,
+       "nombre":"Nintendo DS",
+       "precio":39800,
+       "img":"./img/nintendods.jpg"
+    },
+    {
+       "id":13,
+       "nombre":"Xbox 360",
+       "precio":43200,
+       "img":"./img/xbox360.jpg"
+    },
+    {
+       "id":14,
+       "nombre":"Play Station 3",
+       "precio":51500,
+       "img":"./img/playstation3.jpg"
+    },
+    {
+       "id":15,
+       "nombre":"PC Gamer",
+       "precio":267000,
+       "img":"./img/pcgamer.jpg"
+    },
+    {
+       "id":16,
+       "nombre":"Neo Geo Pocket",
+       "precio":47000,
+       "img":"./img/neogeo.jpg"
+    },
+    {
+       "id":17,
+       "nombre":"Game boy Color",
+       "precio":29300,
+       "img":"./img/gameboycolor.jpg"
+    },
+    {
+       "id":18,
+       "nombre":"Nintendo WiiU",
+       "precio":48500,
+       "img":"./img/nintendowiiu.jpg"
+    },
+    {
+       "id":19,
+       "nombre":"Atari 2600",
+       "precio":45099,
+       "img":"./img/atari.jpg"
+    },
+    {
+       "id":20,
+       "nombre":"Nintendo 3DS",
+       "precio":47500,
+       "img":"./img/nintendo3ds.jpg"
+    },
+    {
+       "id":21,
+       "nombre":"Play Station 4",
+       "precio":97500,
+       "img":"./img/playstation4.jpg"
+    },
+    {
+       "id":22,
+       "nombre":"Xbox Series S",
+       "precio":117500,
+       "img":"./img/xboxseriess.jpg"
+    },
+    {
+       "id":23,
+       "nombre":"Play Station 5",
+       "precio":217500,
+       "img":"./img/playstation5.jpg"
+    }
+ ]
